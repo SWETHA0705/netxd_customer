@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "https://github.com/SWETHA0705/netxd_customer";
+option go_package = "netxd_customer/netxd_customer";
 
 package netxd_customer;
 
@@ -23,4 +23,5 @@ int64 Balance = 5;
 message CustomerResponse {
     int64 CustomerId = 1;
     string CreatedAt = 2;
+
 }
